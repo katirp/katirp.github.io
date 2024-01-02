@@ -1,0 +1,49 @@
+.home {
+    color: #255de1;
+    font-family: 'DM Serif Display', serif;
+    line-height: 10px;
+    margin: 40px 20px;
+    font-size: 20px;
+}
+
+.name {
+    font-size: 50px;   
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.link{
+    text-decoration: none;
+    color: #255de1;
+}
+
+.scroll{
+    white-space: nowrap;
+    margin: 0 2em;
+    animation: LeftToRight 10s infinite linear;
+    gap: 2em;
+}
+
+@keyframes LeftToRight {
+    from {
+        transform: translateX(-50%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+    
+}
+
+.quote {
+    font-size: 40px;
+    margin-top: 60px;
+}
