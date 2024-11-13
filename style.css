@@ -12,11 +12,17 @@
 
 .paragraph {
     line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .image {
-    width: 350px;
+    width: auto;
     height: 350px;
+}
+
+.grid-container {
+    display: grid;
 }
 
 .project-grid {
