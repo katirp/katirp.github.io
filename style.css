@@ -2,18 +2,26 @@
     color: #255de1;
     font-family: 'DM Serif Display', serif;
     line-height: 10px;
-    margin: 40px 20px;
     font-size: 20px;
+    padding: 20px 50px;
 }
 
 .name {
-    font-size: 50px;   
+    font-size: 50px;
 }
 
 .paragraph {
     line-height: 1.6;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+p {
+    color: black;
+}
+
+h2 {
+    margin-top: 50px;
 }
 
 .image {
@@ -28,15 +36,16 @@
 .project-grid {
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
     margin-top: 50px;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: #255de1;
 }
 
-.scroll{
+.scroll {
     white-space: nowrap;
     margin: 0 2em;
     animation: LeftToRight 10s infinite linear;
@@ -47,10 +56,11 @@
     from {
         transform: translateX(-50%)
     }
+
     to {
         transform: translateX(0%);
     }
-    
+
 }
 
 .quote {

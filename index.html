@@ -1,41 +1,89 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Kati RP</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Kati RP</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <div class = "home">
-        <p class = "name">Kati Rady-Pentek</p>
-        <h1 class = "name">INTRODUCTION</h1>
-        <p class = "paragraph">Hello! I am computer science and linguistics student in my final year at UCLA. I am interested in front-end development,
-          design, 3D Modelling, and AR. Other than that I also love trying new restaurants, camping, and anything related to the ocean.
+  <div class="home">
+    <h1 class="name">Kati Rady-Pentek</h1>
+    <div class="project-grid">
+      <div>
+        <p class="paragraph">Hello! I'm a final-year Computer Science and Linguistics student at UCLA. To me, coding is
+          a
+          powerful tool for tackling the issues I care about most. My interests span education, oceanography, and
+          leveraging data to inform criminal justice decisions. </p>
+        <p class="paragraph">
+          I'm passionate about full-stack development and design, and outside of work, I love 3D modeling, camping, and
+          anything related to the ocean. I'm always looking for new opportunities to learn and grow, so feel free to
+          reach
+          out! You can connect with me on <a href="https://www.linkedin.com/in/kati-rp/" target="_blank">LinkedIn</a>
+          and
+          reach me via email at katiradypentek@gmail.com.
         </p>
-        <!-- <p>
+      </div>
+      <img src="images/headshot.JPG" class="image" style="padding-right: 200px; padding-left: 100px;"></img>
+    </div>
+    <!-- <p>
           In the past, I have worked with: 
         </p>
         <div class = "project-grid">
           <img src="eg_logo.jpg" class="image"></img>
         </div> -->
-        <h1 class = "name">EXPERIENCE</h1>
-        <div class = "project-grid">
-          <div>
-            <img src="images/orb2.png" class = "image"></img>
-            <p><a href="./intern.html" class = "link">Internship @ Expedia Group</a></p>   
-          </div>
-          <div>
-            <img src="images/orb.png" class = "image"></img>
-            <p><a href="./nova.html" class = "link">Nova, Tech For Good</a></p>   
-          </div>
-          <div> 
-            <img src="images/orb3.png" class = "image"></img>
-            <p><a href="./3D.html" class = "link">3D Modelling</a></p>
-          </div>
-        </div>
-        <div class = "scroll">
-          <p class="quote">IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING,</p>
-        </div>
+    <h1 class="name">Professional Experience</h1>
+    <div>
+      <h2>Software Engineering Internship @ Expedia Group</h2>
+      <p class="paragraph">
+        During the summer of 2024, I worked in Expedia Group's Chicago office as a Software Development Engineering
+        Intern on a cloud infrastructure team.
+        I developed a recommendation engine in Typescript for customers' Kubernetes Helm charts within
+        Backstage, reducing runtime errors and achieving significant cost savings for the business.
+        I resolved complex issues involving Kubernetes, Docker, GitHub Actions, Spinnaker, and AWS,
+        enhancing system reliability and operational efficiency. </p>
+      <h2>Full-stack Developer @ Nova, Tech For Good</h2>
+      <p class="paragraph">
+        I worked on creating a web app and database for the Blood and Platelet Center to store blood drive data. This
+        app allows organizations to sign up for blood donation drives and for BPC admin to seamlessly manage upcoming
+        drives.
+        I devised a data storage hierarchy schema to securely and efficiently store confidential blood drive
+        information in a Firebase database. I also constructed over half of the front-facing website following best
+        UI/UX practices and using Typescript, React, and HTML/CSS.
+      </p>
+    </div>
+    <h1 class="name">Personal Projects</h1>
+    <div>
+      <h2>Ascii Filter Video Generation</h2>
+      <p class="paragraph">I created a tool in Python which takes a video file as input and returns a video where the
+        pixels in each
+        frame have been converted to ascii characters according to their value.</p>
+      <p>You can try it out <a href=" https://asciify-a254147d701d.herokuapp.com/" target="_blank">here.</a> (It works
+        best with videos less than 5 seconds.)</p>
+      <p class="paragraph"></p>
+      <h2>3D Modelling</h2>
+      <p class="paragraph">
+        Inspired by Japanese Gachapon blind boxes, I created and modelled my original character, Bobotan, using
+        Blender. I prototyped the models by printing them with PLA filament 3D printers, then printed the final
+        versions with a resin printer. The series includes Bobotan in 6 different poses.
+      </p>
+      <p>Bobotan is a mysterious bunny who is always seen wearning a mask. </p>
+      <div>
+        <img src="images/sketch.png" class="image"></img>
+        <img src="images/bobositblend.png" class="image"></img>
+        <img src="images/6.png" class="image"></img>
+        <img src="images/sitting.png" class="image"><img>
+        <img src="images/lying1.png" class="image"><img>
       </div>
-    <script src="script.js"></script>
+    </div>
+    <!-- <div class="scroll">
+      <p class="quote">IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS
+        ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS,
+        EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS
+        EVERYTHING, IDEAS ARE WORTHLESS, EXECUTION IS EVERYTHING,</p>
+    </div> -->
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
